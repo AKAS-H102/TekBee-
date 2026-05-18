@@ -2,7 +2,7 @@ import "./App.css";
 import { QRCodeCanvas } from "qrcode.react";
 
 function App() {
-  const liveUrl = "https://your-vercel-link.vercel.app";
+  const liveUrl = "https://tek-bee.vercel.app";
   const cardUrl = liveUrl + "/?card=true";
 
   const params = new URLSearchParams(window.location.search);
