@@ -9,13 +9,13 @@ function App() {
   const showCard = params.get("card") === "true";
 
   const company = {
-    name: "TekBee Technology",
+    name: "TekBee Technologies",
     tagline: "Tech That Works For You",
     website: "https://tekbeetech.com/",
     phone: "+919444514775",
     email: "info@tekbeetech.com",
-    address: "Tekbee Technologies, Saravana Flats, Near Ponniamman Koil, Sankaran Street, Madipakkam, Chennai, Tamil Nadu, 600091",
-    maps: "https://www.google.com/maps/search/?api=1&query=TekBee+Technology+Chennai",
+    address: "Madipakkam, Chennai, Tamil Nadu, 600091",
+    maps: "https://www.google.com/maps/search/?api=1&query=TekBee+Technologies+Chennai",
   };
 
   const saveContact = () => {
@@ -34,7 +34,7 @@ END:VCARD`;
 
     const a = document.createElement("a");
     a.href = url;
-    a.download = "TekBee-Technology.vcf";
+    a.download = "TekBee-Technologies.vcf";
     a.click();
   };
 
@@ -42,7 +42,7 @@ END:VCARD`;
     if (navigator.share) {
       await navigator.share({
         title: company.name,
-        text: "TekBee Technology Digital Visiting Card",
+        text: "TekBee Technologies Digital Visiting Card",
         url: cardUrl,
       });
     } else {
