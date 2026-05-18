@@ -14,7 +14,7 @@ function App() {
     website: "https://tekbeetech.com/",
     phone: "+919444514775",
     email: "info@tekbeetech.com",
-    address: "Chennai, Tamil Nadu",
+    address: "Tekbee Technologies, Saravana Flats, Near Ponniamman Koil, Sankaran Street, Madipakkam, Chennai, Tamil Nadu, 600091",
     maps: "https://www.google.com/maps/search/?api=1&query=TekBee+Technology+Chennai",
   };
 
